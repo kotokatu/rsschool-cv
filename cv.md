@@ -29,3 +29,8 @@ function descendingOrder(n){
   return +n.toString().split('').sort().reverse().join('');
 }
 ````
+
+# Language Skills
+
+* Russian - native
+* English - C1-C2
