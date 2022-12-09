@@ -1,4 +1,4 @@
-# Natalia Solovyeva
+# Natalia Soloveva
 ___
 # Contact Info
 ___
