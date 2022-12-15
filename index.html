@@ -1,11 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Natalia Soloveva's CV</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Natalia Solovyeva's CV</title>
 </head>
+
 <body>
+  <div class="wrapper">
+    <header class="page-header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#about-me" class="nav-link">About&nbsp;Me</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <header class="main-header">
+          <img class="main-header-picture" src="assets/img/profile-picture.jpg" alt="Natalia Solovyeva's picture"
+            width="278" height="238">
+          <h1 class="main-header-title">Natalia Solovyeva</h1>
+        </header>
+        <div class="main-content">
+          <div class="column-right">
+            <section class="section" id="about-me">
+              <h2 class="section-title">About Me</h2>
+              <p class="section-text section-text-about-me">I first became interested in computer science when I got my
+                first desktop back in
+                2001, but at that moment
+                I
+                was already a Linguistics major, so I never pursued the CS field as a career. After having worked as a
+                purchasing specialist for an international forest industry company for 15 years I've decided to switch
+                my
+                career path to something that feels more satisfying and authentic. Becoming a Front-End developer has
+                become
+                my
+                personal challenge, my dream and my goal.</p>
+              <p class="section-text">I am still at the very beggining of my learning journey, but I've already gained
+                some basic knowledge of
+                HTML, CSS and JavaScript through YouTube tutorials, Codewars, books. The more I get involved in this
+                field
+                of knowledge, the more exciting and motivating it becomes.</p>
+            </section>
+            <section class="section" id="education">
+              <h2 class="section-title">Education</h2>
+              <p class="section-text">Vologda State Pedagogical University, Foreign Languages
+              </p>
+            </section>
+            <section class="section" id="code">
+              <h2 class="section-title">Code</h2>
+              <p class="section-text">
+                Given a list of integers, determine whether the sum of its elements is odd or even.
+                Give your answer as a string matching "odd" or "even".
+                If the input array is empty consider it as: [0] (array with a zero):</p>
+              <code>
+                <pre class="code-snippet">
+  function oddOrEven(array) {
+    return array.reduce((a, b) => a + b, 0) % 2 ? "odd" : "even";
+  }
+                </pre>
+              </code>
+            </section>
+          </div>
+          <div class="column-left">
+            <section class="section" id="skills">
+              <h2 class="section-title">Skills</h2>
+              <ul class="skills-list">
+                <li class="skills-item">HTML5</li>
+                <li class="skills-item">CSS3</li>
+                <li class="skills-item">JavaScript</li>
+              </ul>
+            </section>
+            <section class="section" id="english">
+              <h2 class="section-title">English</h2>
+              <p class="section-text">C1 according to <a href="https://www.efset.org/ru/quick-check/"><img
+                    src="assets/svg/efset-logo_black.svg" alt="EF SET logo"></a></p>
+            </section>
+            <section class="section" id="contacts">
+              <h2 class="section-title">Contacts</h2>
+              <ul class="contacts-list">
+                <li class="contacts-item contacts-item-geo"><a class="contacts-link" target="_blank"
+                    href="https://goo.gl/maps/XJq29V8fsju8KGpw9">Vologda, Russia</a></li>
+                <li class="contacts-item contacts-item-github"><a class="contacts-link" target="_blank"
+                    href="https://github.com/kotokatu">kotokatu</a></li>
+                <li class="contacts-item contacts-item-email"><a class="contacts-link"
+                    href="mailto:kotokatu320@gmail.com">kotokatu320@gmail.com</a></li>
+                <li class="contacts-item contacts-item-discord"><a class="contacts-link" target="_blank"
+                    href="https://discordapp.com/users/kotorayakusalas#7316">kotorayakusalas#7316</a></li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <p>©<a class="footer-link" target="_blank" href="https://github.com/kotokatu"> kotokatu</a>, 2022</p>
+        <a class="rs-school-link" target="_blank" href="https://rs.school/js/"><img src="assets/svg/rs_school_js.svg"
+          alt="RS School logo" width="100" height=""></a>
+      </div>
+    </footer>
+  </div>
 </body>
+
 </html>

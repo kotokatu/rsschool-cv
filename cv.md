@@ -12,7 +12,7 @@
 
 # About Me
 
-I first became interested in computer science when I got my first desktop back in 2001, but at that moment I was already a Linguistics major, so I never pursued CS field as a career. After having worked for an international forest industry corporation for 15 years I decided to change my career path to something that feels more satisfying and authentic to me. Becoming a Front-end developer has become my dream and my goal.
+I first became interested in computer science when I got my first desktop back in 2001, but at that moment I was already a Linguistics major, so I never pursued the CS field as a career. After having worked as a purchasing specialist for an international forest industry company for 15 years I decided to switch my career path to something that feels more satisfying and authentic. Becoming a Front-End developer has become my personal challenge, my dream and my goal.
 
 # My Skills
 
@@ -34,3 +34,7 @@ function descendingOrder(n){
 
 * Russian - native
 * English - C1-C2
+
+# Education
+
+2000 - 2005 Vologda State Pedagogical University, Foreign Languages Department
