@@ -25,7 +25,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-family: Lato, Arial, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 1.3;
   color: rgb(100, 80, 80);
@@ -37,9 +37,9 @@ a {
 }
 
 ul {
-  list-style: none;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 p {
@@ -61,8 +61,8 @@ p {
 }
 
 .page-header {
-  background: rgb(238, 132, 61);
   padding: 20px 0;
+  background: rgb(238, 132, 61);
 }
 
 .nav {
@@ -80,8 +80,8 @@ p {
 }
 
 .nav-link {
-  font-size: 20px;
   padding: 10px;
+  font-size: 20px;
 }
 
 .nav-link:hover, .footer-link:hover {
@@ -96,8 +96,8 @@ p {
 }
 
 .main-header-title {
-  flex-basis: 70%;
   position: relative;
+  flex-basis: 70%;
 }
 
 .main-content {
@@ -108,16 +108,16 @@ p {
 
 .column-right {
   flex-basis: 70%;
-  border-top: 3px solid #ff7f50;
   margin-bottom: 20px;
+  border-top: 3px solid #ff7f50;
 }
 
 .column-left {
   display: flex;
   flex-direction: column;
   padding: 0 20px 10px;
-  border: 3px solid #ff7f50;
   margin-bottom: 20px;
+  border: 3px solid #ff7f50;
 }
 
 .section-text-about-me {
@@ -126,8 +126,8 @@ p {
 
 .code-snippet {
   padding-top: 20px;
-  background-color: #faebd7;
   border-left: 5px solid #ff7f50;
+  background-color: #faebd7;
   overflow: auto;
 }
 
@@ -149,41 +149,41 @@ p {
 }
 
 .contacts-item {
-  padding-left: 30px;
   position: relative;
+  padding-left: 30px;
 }
 
 .contacts-item::before {
   content: "";
-  width: 25px;
-  height: 25px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   left: 0;
+  width: 25px;
+  height: 25px;
 }
 
 .contacts-item-geo::before {
-  background-image: url(assets/svg/geo-icon.svg);
+  background-image: url('assets/svg/geo-icon.svg');
 }
 
 .contacts-item-github::before {
-  background-image: url(assets/svg/github-icon.svg);
+  background-image: url('assets/svg/github-icon.svg');
 }
 
 .contacts-item-email::before {
-  background-image: url(assets/svg/mail-icon.svg);
+  background-image: url('assets/svg/mail-icon.svg');
 }
 
 .contacts-item-discord::before {
-  background-image: url(assets/svg/discord-icon.svg);
+  background-image: url('assets/svg/discord-icon.svg');
 }
 
 .footer {
-  background-color: #ee843d;
-  color: #fff;
   padding: 8px 0;
   margin-top: auto;
+  color: #fff;
+  background-color: #ee843d;
 }
 
 .footer-container {
